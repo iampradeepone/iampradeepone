@@ -1,11 +1,15 @@
-<!-- Dynamic Animated Header -->
+<!-- 100% Reliable Native Header + Animated Typing SVG -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e293b,100:3b82f6&height=220&section=header&text=Pradeep%20Kumar&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Senior%20Site%20Reliability%20Engineer%20%7C%20Cloud%20%26%20Distributed%20Systems&descAlignY=58&descSize=18" width="100%" alt="Header Banner" />
 
-  <!-- Typing SVG Animation -->
+  # Hi there, I'm Pradeep Kumar 👋
+  ### **Senior Site Reliability Engineer | Cloud Infrastructure & Distributed Systems**
+
+  <!-- Animated Typing SVG (Hosted on reliable demolab.com) -->
   <a href="https://github.com/iampradeepone">
     <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Architecting+High-Availability+Cloud+Infrastructure;Automating+Everything+%7C+Terraform+%E2%80%A2+Kubernetes+%E2%80%A2+GitOps;Engineering+for+99.99%25+Uptime%2C+SLOs+%26+Zero-Downtime;Observability%2C+Chaos+Engineering+%26+Self-Healing+Systems" alt="Typing SVG" />
   </a>
+
+  <br/>
 
   <!-- Status & Social Badges -->
   <p>
@@ -109,8 +113,7 @@ graph LR
 ### 📊 Live Telemetry & Engineering Metrics
 
 <div align="center">
-  <img height="175em" src="https://github-readme-stats.vercel.app/api?username=iampradeepone&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&text_color=c9d1d9&count_private=true" alt="Pradeep's GitHub Stats" />
-  <img height="175em" src="https://streak-stats.demolab.com?user=iampradeepone&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f43f5e&currStreakLabel=38bdf8" alt="GitHub Streak" />
+  <img height="175em" src="https://github-readme-streak-stats.herokuapp.com/?user=iampradeepone&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f43f5e&currStreakLabel=38bdf8" alt="GitHub Streak" />
 </div>
 
 <div align="center">
@@ -130,5 +133,13 @@ graph LR
 
 </details>
 
-<!-- Footer Wave -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3b82f6,50:1e293b,100:0f172a&height=110&section=footer" width="100%" alt="Footer Banner" />
+---
+
+<!-- 100% Reliable Native Footer -->
+<div align="center">
+  <img src="https://img.shields.io/badge/SLO_Target-99.99%25_Uptime-10b981?style=flat-square&logo=statuspage&logoColor=white" alt="SLO Target" />
+  <img src="https://img.shields.io/badge/Infrastructure-Immutable-38bdf8?style=flat-square&logo=kubernetes&logoColor=white" alt="Immutable Infra" />
+  <img src="https://img.shields.io/badge/Toil-Automated-f43f5e?style=flat-square&logo=terraform&logoColor=white" alt="Automated Toil" />
+  <br/><br/>
+  <sub><b>Engineered with reliability by <a href="https://github.com/iampradeepone">@iampradeepone</a></b></sub>
+</div>
