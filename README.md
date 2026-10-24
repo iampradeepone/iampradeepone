@@ -1,4 +1,4 @@
-<!-- 100% Reliable Native Header + Animated Typing SVG -->
+<!-- 100% Reliable Header + Animated Typing SVG -->
 <div align="center">
 
   # Hi there, I'm Pradeep Kumar 👋
@@ -11,7 +11,7 @@
 
   <br/>
 
-  <!-- Status & Social Badges -->
+  <!-- Status & Social Badges (100% Shields.io CDN - Never Fails) -->
   <p>
     <a href="https://linkedin.com/in/YOUR_LINKEDIN_HANDLE" target="_blank">
       <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
@@ -22,7 +22,9 @@
     <a href="https://github.com/iampradeepone?tab=followers">
       <img src="https://img.shields.io/github/followers/iampradeepone?label=Followers&style=for-the-badge&color=1e293b&logo=github&logoColor=white" alt="GitHub Followers" />
     </a>
-    <img src="https://komarev.com/ghpvc/?username=iampradeepone&label=Profile%20Views&color=3b82f6&style=for-the-badge" alt="Profile Views" />
+    <a href="https://github.com/iampradeepone?tab=repositories">
+      <img src="https://img.shields.io/github/stars/iampradeepone?label=Total%20Stars&style=for-the-badge&color=3b82f6&logo=github&logoColor=white" alt="GitHub Stars" />
+    </a>
   </p>
 </div>
 
@@ -54,36 +56,6 @@ status:
 
 ---
 
-### 🏗️ Reference Production Architecture
-
-```mermaid
-graph LR
-    subgraph GitOps & CI/CD
-        A[GitHub Repo] -->|Actions CI| B(Container Registry)
-        A -->|Terraform Plan/Apply| C[Cloud Infra]
-        B -->|ArgoCD Sync| D{Kubernetes Cluster}
-    end
-
-    subgraph Runtime & Service Mesh
-        D --> E[Ingress / Envoy]
-        E --> F[Microservices Pods]
-        F --> G[(Distributed DB / Cache)]
-    end
-
-    subgraph Observability & Self-Healing
-        F -.->|Metrics & Traces| H[OpenTelemetry / Prometheus]
-        H --> I[Grafana / Alertmanager]
-        I -.->|Webhook Remediation| J[Automated Runbooks]
-        J -.->|Scale / Rollback| D
-    end
-
-    style D fill:#1e293b,stroke:#38bdf8,stroke-width:2px,color:#fff
-    style H fill:#0f172a,stroke:#f43f5e,stroke-width:2px,color:#fff
-    style J fill:#0f172a,stroke:#10b981,stroke-width:2px,color:#fff
-```
-
----
-
 ### 🛠️ Production Arsenal
 
 <div align="center">
@@ -110,26 +82,27 @@ graph LR
 
 ---
 
-### 📊 Live Telemetry & Engineering Metrics
+### 📊 Live Telemetry & Activity
 
 <div align="center">
-  <img height="175em" src="https://github-readme-streak-stats.herokuapp.com/?user=iampradeepone&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f43f5e&currStreakLabel=38bdf8" alt="GitHub Streak" />
-</div>
-
-<div align="center">
-  <img width="98%" src="https://github-readme-activity-graph.vercel.app/graph?username=iampradeepone&bg_color=0d1117&color=38bdf8&line=3b82f6&point=ffffff&area=true&hide_border=true" alt="Pradeep's Activity Graph" />
+  <img height="180em" src="https://streak-stats.demolab.com?user=iampradeepone&theme=tokyonight&hide_border=true&background=0d1117&ring=38bdf8&fire=f43f5e&currStreakLabel=38bdf8" alt="GitHub Streak" />
 </div>
 
 ---
 
 <details>
-<summary><b>⚡ Click to expand: My Core SRE Operating Principles</b></summary>
+<summary><b>⚡ Click to expand: My Core SRE Operating Principles & Runbook</b></summary>
 <br>
 
-1. **SLOs Over Gut Feelings:** If an alert doesn't threaten an Error Budget or impact customer-facing SLIs, it shouldn't page an engineer at 2 AM.
-2. **Eliminate Toil Recursively:** If an operational task has to be performed manually more than twice, it belongs in a Terraform module, Kubernetes controller, or automated runbook.
-3. **Blameless Postmortems:** Outages are systemic failures, never human failures. Every incident is an investment in hardening the architecture.
-4. **Immutable Infrastructure:** Servers are cattle, not pets. Patching means redeploying from a verified pipeline.
+> [!TIP]
+> **Golden Rule:** *"Hope is not a strategy."* Reliability is engineered through deterministic automation, strict SLAs/SLOs, and resilient system design.
+
+| Principle | Operational Mandate | Enforcement |
+| :--- | :--- | :--- |
+| ![SLOs](https://img.shields.io/badge/01-SLOs_Over_Gut_Feelings-38bdf8?style=flat-square&logo=prometheus&logoColor=white) | If an alert doesn't threaten an **Error Budget** or impact customer-facing SLIs, it shouldn't page an engineer at 2 AM. | `Multi-Window Burn Alerts` |
+| ![Toil](https://img.shields.io/badge/02-Eliminate_Toil_Recursively-10b981?style=flat-square&logo=terraform&logoColor=white) | If an operational task is performed manually more than twice, it belongs in a Terraform module, K8s operator, or automated runbook. | `IaC & Self-Healing` |
+| ![Postmortems](https://img.shields.io/badge/03-Blameless_Postmortems-f59e0b?style=flat-square&logo=opsgenie&logoColor=white) | Outages are systemic failures, never human failures. Every incident is an investment in hardening the architecture. | `Root Cause Analysis` |
+| ![Immutable](https://img.shields.io/badge/04-Immutable_Infrastructure-f43f5e?style=flat-square&logo=kubernetes&logoColor=white) | Servers are cattle, not pets. No SSH-ing into production—patching means redeploying from a verified pipeline. | `GitOps & Ephemeral Nodes` |
 
 </details>
 
